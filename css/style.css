@@ -28,6 +28,11 @@ i {
   color: #4B4B4B;
   font-size: 1em; }
 
+nav a {
+  font-family: "Helvetica-Neue-LT";
+  color: #F3F0ED;
+  font-size: 1.2em; }
+
 @font-face {
   font-family: "Futurist-Fixed-width";
   src: url("../../fonts/FUTRFW.woff") format("woff"); }
