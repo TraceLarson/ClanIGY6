@@ -1,0 +1,31 @@
+{
+  "name": "clanigy6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TraceLarson/ClanIGY6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TraceLarson/ClanIGY6/issues"
+  },
+  "homepage": "https://github.com/TraceLarson/ClanIGY6#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.2.1",
+    "babel-core": "^6.26.0",
+    "gulp-postcss": "^7.0.0"
+  }
+}

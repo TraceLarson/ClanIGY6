@@ -1,0 +1,36 @@
+h2 {
+  font-family: $headerFont;
+  color: $headerFontColor;
+  font-size: $header2FontSize;
+}
+
+h3{
+  font-family: $headerFont;
+  color: $headerFontColor;
+  font-size: $header3FontSize;
+}
+
+body{
+  font-family: $contentFont;
+  color: $contentFontColor;
+  font-size: $contentFontSize;
+}
+
+time{
+  font-family: $dateFont;
+  color: $contentFontColor;
+  font-size: $contentFontSize;
+
+}
+
+em{
+  font-family: $emphasisFont;
+  color: $contentFontColor;
+  font-size: $contentFontSize;
+}
+
+i{
+  font-family: $italicFont;
+  color: $contentFontColor;
+  font-size: $contentFontSize;
+}
