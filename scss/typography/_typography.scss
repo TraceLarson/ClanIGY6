@@ -1,3 +1,9 @@
+h1{
+  font-family: $headerFont;
+  color: $header1FontColor;
+  font-size: $header1FontSize;
+}
+
 h2 {
   font-family: $headerFont;
   color: $headerFontColor;
@@ -5,6 +11,12 @@ h2 {
 }
 
 h3{
+  font-family: $headerFont;
+  color: $headerFontColor;
+  font-size: $header3FontSize;
+}
+
+h4{
   font-family: $headerFont;
   color: $headerFontColor;
   font-size: $header3FontSize;

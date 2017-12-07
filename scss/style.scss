@@ -11,3 +11,44 @@
 @include font-face("Adobe-Garamond-Pro-Italic", "../../fonts/AGaramondPro-Italic", null, null, woff);
 
 
+body{
+  background: url("../images/background.jpg") center / cover fixed;
+}
+
+
+nav{
+  text-shadow: 2px 2px #000;
+  background-color: $navBg;
+}
+
+footer{
+
+  text-shadow: 2px 2px #000;
+  background-color: $footerBg;
+
+}
+
+button{
+  color: $navLinkFontColor;
+}
+
+.active{
+  background-color: $navActiveBg;
+}
+
+a{
+
+  &:hover{
+    color: #D8D8D8;
+  }
+}
+
+.carousel-caption-text{
+  color: $jumbotronFontColor;
+  text-shadow: 2px 2px #000;
+}
+
+.carousel-indicators li{
+  box-shadow: 2px 2px #000;
+}
+

@@ -1,9 +1,19 @@
+h1 {
+  font-family: "Futurist-Fixed-width";
+  color: #F3F0ED;
+  font-size: 2em; }
+
 h2 {
   font-family: "Futurist-Fixed-width";
   color: #4B4B4B;
   font-size: 1.6em; }
 
 h3 {
+  font-family: "Futurist-Fixed-width";
+  color: #4B4B4B;
+  font-size: 1.5em; }
+
+h4 {
   font-family: "Futurist-Fixed-width";
   color: #4B4B4B;
   font-size: 1.5em; }
@@ -48,3 +58,31 @@ nav a {
 @font-face {
   font-family: "Adobe-Garamond-Pro-Italic";
   src: url("../../fonts/AGaramondPro-Italic.woff") format("woff"); }
+
+body {
+  background: url("../images/background.jpg") center/cover fixed; }
+
+nav {
+  text-shadow: 2px 2px #000;
+  background-color: #252525; }
+
+footer {
+  text-shadow: 2px 2px #000;
+  background-color: #252525; }
+
+button {
+  color: #F3F0ED; }
+
+.active {
+  background-color: #4B4B4B; }
+
+a:hover {
+  color: #D8D8D8; }
+
+.carousel-caption-text {
+  color: #F3F0ED;
+  text-shadow: 2px 2px #000; }
+
+.carousel-indicators li {
+  -webkit-box-shadow: 2px 2px #000;
+          box-shadow: 2px 2px #000; }
