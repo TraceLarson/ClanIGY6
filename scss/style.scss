@@ -73,3 +73,14 @@ a{
 .border{
   border: 1px solid blue;
 }
+
+.popover{
+  color: $darkBgContentFontColor;
+  background-color: #000000;
+
+}
+
+.newsContent{
+  background-color: $lightContentBgColor;
+  color: $lightBgContentFontColor;
+}

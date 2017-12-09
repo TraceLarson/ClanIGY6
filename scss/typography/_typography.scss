@@ -24,26 +24,26 @@ h4{
 
 body{
   font-family: $contentFont;
-  color: $contentFontColor;
+  color: $lightBgContentFontColor;
   font-size: $contentFontSize;
 }
 
 time{
   font-family: $dateFont;
-  color: $contentFontColor;
+  color: $lightBgContentFontColor;
   font-size: $contentFontSize;
 
 }
 
 em{
   font-family: $emphasisFont;
-  color: $contentFontColor;
+  color: $darkBgContentFontColor;
   font-size: $contentFontSize;
 }
 
 i{
   font-family: $italicFont;
-  color: $contentFontColor;
+  color: $darkBgContentFontColor;
   font-size: $contentFontSize;
 }
 nav a{

@@ -20,12 +20,12 @@ h4 {
 
 body {
   font-family: "Helvetica-Neue-LT";
-  color: #4B4B4B;
+  color: #252525;
   font-size: 1em; }
 
 time {
   font-family: "Futura";
-  color: #4B4B4B;
+  color: #252525;
   font-size: 1em; }
 
 em {
@@ -99,3 +99,11 @@ a:hover {
 
 .border {
   border: 1px solid blue; }
+
+.popover {
+  color: #4B4B4B;
+  background-color: #000000; }
+
+.newsContent {
+  background-color: #F3F0ED;
+  color: #252525; }
