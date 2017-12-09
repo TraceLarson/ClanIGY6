@@ -86,3 +86,16 @@ a:hover {
 .carousel-indicators li {
   -webkit-box-shadow: 2px 2px #000;
           box-shadow: 2px 2px #000; }
+
+.featuresCarousel img {
+  margin: 25px auto 25px auto; }
+
+.carousel-item {
+  background-color: #252525; }
+
+.features {
+  background-color: #252525;
+  padding: 25px; }
+
+.border {
+  border: 1px solid blue; }
