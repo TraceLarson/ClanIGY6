@@ -30,18 +30,22 @@ time {
 
 em {
   font-family: "Adobe-Garamond-Pro-Bold";
-  color: #4B4B4B;
+  color: #F3F0ED;
   font-size: 1em; }
 
 i {
   font-family: "Adobe-Garamond-Pro-Italic";
-  color: #4B4B4B;
+  color: #F3F0ED;
   font-size: 1em; }
 
 nav a {
   font-family: "Helvetica-Neue-LT";
   color: #F3F0ED;
   font-size: 1.2em; }
+
+footer a {
+  font-family: "Helvetica-Neue-LT";
+  color: #F3F0ED; }
 
 @font-face {
   font-family: "Futurist-Fixed-width";
@@ -68,7 +72,10 @@ nav {
 
 footer {
   text-shadow: 2px 2px #000;
-  background-color: #252525; }
+  background-color: #252525;
+  color: #F3F0ED; }
+  footer ul {
+    list-style: none; }
 
 button {
   color: #F3F0ED; }
@@ -101,7 +108,7 @@ a:hover {
   border: 1px solid blue; }
 
 .popover {
-  color: #4B4B4B;
+  color: #F3F0ED;
   background-color: #000000; }
 
 .newsContent {
