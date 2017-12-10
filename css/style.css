@@ -146,3 +146,22 @@ a:hover {
   text-shadow: 2px 2px #000; }
   #contributors-row h2, #contributors-row h4 {
     color: #F3F0ED; }
+
+.box {
+  height: 150px;
+  overflow: hidden; }
+  .box h4 {
+    font-size: 1em;
+    color: #F3F0ED; }
+  .box .caption {
+    width: 150px;
+    display: none;
+    background-color: #4B4B4B; }
+  .box .captionSmall {
+    position: relative;
+    width: 150px;
+    bottom: 45px;
+    z-index: 5; }
+  .box:hover .caption {
+    position: relative;
+    bottom: 20px; }
