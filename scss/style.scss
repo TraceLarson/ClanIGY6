@@ -89,3 +89,53 @@ a{
   background-color: $lightContentBgColor;
   color: $lightBgContentFontColor;
 }
+
+.darkBg{
+  background-color: $darkContentBgColor;
+}
+
+.big{
+  line-height: 1.6em;
+}
+
+#mission-statement-row{
+  background: url("../images/missionstatementbg.png") center / cover no-repeat;
+  min-height: 400px;
+
+  color: $darkBgContentFontColor;
+  text-shadow: 2px 2px #000;
+
+  h2{
+    color: $darkBgContentFontColor;
+  }
+}
+
+#upcoming-projects-row {
+  background: url("../images/projectsbg.png") center / cover no-repeat;
+  min-height: 400px;
+
+  color: $darkBgContentFontColor;
+  text-shadow: 2px 2px #000;
+
+  h2 , h4{
+    color: $darkBgContentFontColor;
+  }
+
+  h4{
+    font-family: $contentFont;
+  }
+
+}
+
+#contributors-row {
+  background: url("../images/contributorsbg.png") center / cover no-repeat;
+  min-height: 400px;
+
+  color: $darkBgContentFontColor;
+  text-shadow: 2px 2px #000;
+
+  h2 , h4{
+    color: $darkBgContentFontColor;
+  }
+
+}
