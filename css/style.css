@@ -105,7 +105,7 @@ a:hover {
   padding: 25px; }
 
 .border {
-  border: 1px solid blue; }
+  border: 4px solid blue; }
 
 .popover {
   color: #F3F0ED;
@@ -120,6 +120,9 @@ a:hover {
 
 .big {
   line-height: 1.6em; }
+
+.carousel-item.active {
+  display: block; }
 
 #mission-statement-row {
   background: url("../images/missionstatementbg.png") center/cover no-repeat;
@@ -165,3 +168,6 @@ a:hover {
   .box:hover .caption {
     position: relative;
     bottom: 20px; }
+
+#featuresCarousel {
+  background-color: #252525; }
